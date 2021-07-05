@@ -6,7 +6,7 @@ const result = docgen.parse(path.resolve('./component.tsx'), {
   skipChildrenPropWithoutDoc: false,
 });
 
-const result2 = docgen.parse(path.resolve('./component.tsx'), {
+const result2 = docgen.parse(path.resolve('./component2.tsx'), {
   skipChildrenPropWithoutDoc: false,
 });
 
