@@ -2,8 +2,10 @@ import { FC, ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;
+} & {
+  children?: ReactNode;
 };
 
-const Component: FC<Props> = ({ children }) => <div>{children}</div>;
+const Component = ({ children }: Props) => <div>{children}</div>;
 
 export { Component, Props };
