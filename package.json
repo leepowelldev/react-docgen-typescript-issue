@@ -1,0 +1,19 @@
+{
+  "name": "react-docgen-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.13",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-docgen-typescript": "^2.0.0",
+    "typescript": "^4.3.5"
+  }
+}
